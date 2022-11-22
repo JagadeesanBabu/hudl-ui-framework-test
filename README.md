@@ -63,5 +63,5 @@ Framework is built on below mentioned stack. Please install the below to run the
 
 ## How to view test results
 * once the run is complete, report is generated via surefire reporting plugin and can be found under rootfolder/target/site/surefire-report.html
-
-
+* launch VNC viewer
+* Please see the sample run here https://youtu.be/QgC_i9S0K4c

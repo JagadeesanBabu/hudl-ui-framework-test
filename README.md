@@ -47,7 +47,7 @@ Framework is built on below mentioned stack. Please install the below to run the
 
 ## How to run the tests
 * Clone the Repo
-* From the command line, go to the root folder
+* Execute the command to run the tests
 
 **Run UI Tests**
 * command to bring the firefox and chrome standalone server : `docker-compose -f docker-compose.yml up`

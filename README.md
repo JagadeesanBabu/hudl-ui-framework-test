@@ -1,7 +1,7 @@
 # Hudl UI Test Framework
 
 * [Highlevel Overview](#highlevel-overview)
-* [Tech Stack/Machine requirements](#Tech-Stack/Machine-requirements)
+* [Tech Stack/Machine requirements](#tech-stack/machine-requirements)
 * [How to run the tests](#how-to-run-the-tests)
 * [How to view test results](#how-to-view-test-results)
 
@@ -46,14 +46,13 @@ Framework is built on below mentioned stack. Please install the below to run the
 
 
 ## How to run the tests
-* Clone the Repo
-* Execute the command to run the tests
 
 **Run UI Tests**
-* You can easily execute from github codespaces. Please watch this video to run it your own githubpod. Or you can set it up in your local too by following below steps.
+* You can easily execute from github codespaces, great way to setup our dev env in mins. Please watch this video to run it your own githubpod from the browser. Or you can set it up in your local too by following below steps.
     - https://youtu.be/yoBh2MID0MA
 
-* Update your system properties in `hudl-ui-framework-test/src/main/resources/config.properties`.  Please note expect password all the properties should work by default. Please update `password` before running your tests
+* Clone the Repo
+* Update your system properties in `hudl-ui-framework-test/src/main/resources/config.properties`.  Please note that password is masked & all the properties should work by default. Please update `password` before running your tests
     - baseURL=https://www.hudl.com
     - username=jagadeesan.babu@gmail.com
     - password=XXXXXX

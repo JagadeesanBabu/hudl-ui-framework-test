@@ -65,3 +65,10 @@ Framework is built on below mentioned stack. Please install the below to run the
 * once the run is complete, report is generated via surefire reporting plugin and can be found under rootfolder/target/site/surefire-report.html
 * launch VNC viewer
 * Please see the sample run here https://youtu.be/QgC_i9S0K4c
+
+## How to view test results
+* Implementing JS error collection in the Method watcher class and Log on Each Test basis in the file `MethodWatcther.Java`
+* <img src="./img/js_error_collection.jpg" alt="JS Error" width="200"/>
+* Planned to create a docker image of this test build version.
+
+

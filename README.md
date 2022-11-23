@@ -50,11 +50,16 @@ Framework is built on below mentioned stack. Please install the below to run the
 * Execute the command to run the tests
 
 **Run UI Tests**
+* Update your system properties in `hudl-ui-framework-test/src/main/resources/config.properties`.  Please note expect password all the properties should work by default. Please update `password` before running your tests
+    - baseURL=https://www.hudl.com
+    - username=jagadeesan.babu@gmail.com
+    - password=XXXXXX
+    - browser=firefox
+    - chromeserver=http://localhost:4441/wd/hub
+    - firefoxserver=http://localhost:4442/wd/hub 
 * command to bring the firefox and chrome standalone server : `docker-compose -f docker-compose.yml up`
 * command : `mvn surefire-report:report -PUI`
-* command to run with browser chrome : `mvn surefire-report:report -PUI -DbrowserName=chrome`
-* command to run with browser firefox : `mvn surefire-report:report -PUI -DbrowserName=firefox`
-* command to run with browser firefox : `mvn surefire-report:report -PUI -DbrowserName=firefox`
+
 
 **To Monitor the execution**
 * launch VNC viewer

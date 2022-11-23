@@ -50,6 +50,9 @@ Framework is built on below mentioned stack. Please install the below to run the
 * Execute the command to run the tests
 
 **Run UI Tests**
+* You can easily execute from github codespaces. Please watch this video to run it your own githubpod. Or you can set it up in your local too by following below steps.
+    - https://youtu.be/yoBh2MID0MA
+
 * Update your system properties in `hudl-ui-framework-test/src/main/resources/config.properties`.  Please note expect password all the properties should work by default. Please update `password` before running your tests
     - baseURL=https://www.hudl.com
     - username=jagadeesan.babu@gmail.com

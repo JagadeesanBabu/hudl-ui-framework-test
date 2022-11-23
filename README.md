@@ -9,7 +9,7 @@
 ## Highlevel Overview
 * Any typical Web development will be using components created for better reusablity eg: Angular components. Hence components can be injected in any UI pages based on its functional needs. In similar fashion the core architecture of this framework is to build Hudl UI Components & its relevant Pages on top of it. This will allow us to manage the test productivity in better way as we will develop/operate on components level as opposed to page level.
 
-* For Example Consider the Below Hudl Search Bar Component. Assuming this is used in several pages. we can create a corresponding reopresentation of test component like below.
+* For Example Consider the Below Hudl Search Bar Component. Assuming this is used in several pages. we can create a corresponding representation of test component like below.
 
 * <img src="./img/HudlSearchBarComponent.jpg" alt="Hudl Search Bar Component" width="200"/>
 
@@ -74,9 +74,12 @@ Framework is built on below mentioned stack. Please install the below to run the
 * launch VNC viewer
 * Please see the sample run here https://youtu.be/QgC_i9S0K4c
 
-## How to view test results
-* Implementing JS error collection in the Method watcher class and Log on Each Test basis in the file `MethodWatcther.Java`
-* <img src="./img/js_error_collection.jpg" alt="JS Error" width="200"/>
-* Planned to create a docker image of this test build version.
+## Next steps
+* I have planned to work on below items. Due to time constraints pointing these as next steps.
+ - Rest API Test & its frame work to test the backend flow.
+ - Implementing JS error collection in the Method watcher class and register the error list on end of each test. Implementation will be in `MethodWatcther.Java`
+ - <img src="./img/js_error_collection.jpg" alt="JS Error" width="200"/>
+ - Planned to create a docker image of this test build version.
+
 
 

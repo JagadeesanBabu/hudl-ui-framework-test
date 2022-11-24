@@ -48,7 +48,7 @@ Framework is built on below mentioned stack. Please install the below to run the
 ## How to run the tests
 
 **Run UI Tests**
-* You can easily execute from github codespaces, great way to setup our dev env in mins. Please watch this video to run it your own githubpod from the browser. Or you can set it up in your local too by following below steps.
+* You can easily execute from github codespaces, great way to setup our dev env in mins. Please watch this video(1.5x speed, Set the resolution to 1080p if its blurred) to run it your own githubpod from the browser. Or you can set it up in your local too by following below steps.
     - https://youtu.be/yoBh2MID0MA
 
 * Clone the Repo
